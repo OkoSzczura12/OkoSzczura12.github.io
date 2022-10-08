@@ -1,0 +1,127 @@
+html,body {
+    background-color: black;
+    color:#EEEEEE;
+    margin: 0;
+    font-family: monospace;
+}
+
+#header {
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    line-height: 50px;
+    font-size:40px;
+    font-weight: 1000;
+    font-family: monospace;
+    background-color: #090909;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+#menu {
+    width: 1000px; 
+    text-align:center;
+    line-height: 1.2;
+    display: block;
+    position: relative;
+    font-weight: 400;
+    width:auto;
+}
+#szablon {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 600px;
+}
+
+#menu ul {
+    display: block;
+    margin:0; 
+    padding:0;
+    color:#EEEEEE;
+    background-color: #262626;
+    border-radius: 3px;
+    text-align:center;
+    list-style:none;
+}
+#menu li {
+    display: inline-block; 
+    position:relative;    
+    font-size:22px; 
+    margin:2px;
+    padding:0;
+    padding:14px 20px; 
+}
+
+#menu >ul>li>a {
+    color:#EEEEEE;
+    text-decoration: none;
+    transition:all 0.3s;
+    letter-spacing:2px;
+    font-size: 22px;
+    font-weight: 400;
+    padding:14px 20px; 
+}
+#menu >ul>li>a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: azure;
+    border-radius: 3px;
+}
+
+#main {
+    background-color: #262626;
+    width: 645px;
+    border-radius: 3px;
+    height: 400px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+#image {
+    background-color: #262626;
+    width: 345px;
+    border-radius: 3px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
+#footer {
+    height: 50px;
+    width: 1000px;
+    background-color: #262626;
+    clear: both;
+    text-align: center;
+    line-height: 2;
+    border-radius: 3px;
+    font-size: 22px;
+
+}
+table td {
+    border: 3px solid white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#image img {
+    border-radius: 3px;
+
+}
+
+form label {
+    font-size: 22px;
+}
+.textInput {
+    height: 30px;
+    color: white;
+    background-color: #090909;
+}
+button {
+    background-color: #EEEEEE;
+    height: 30px;
+}
+button:hover {
+    background-color: #090909;
+    color: #EEEEEE;
+}
+

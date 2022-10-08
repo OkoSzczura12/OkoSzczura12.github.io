@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>daldjaodjaodja</title>
+    </head>
+    <body>
+        <script src="./index.js"></script>
+        <div id="szablon">
+        <div id="header">WALUTY</div>
+        <div id="menu">
+            <ul>
+                <li><a href="./index.html">STRONA GŁÓWNA</a></li>
+                <li><a href="./euro.html">EURO</a></li>
+                <li><a href="./dolar.html">DOLAR</a></li>
+                <li><a href="./funt.html">FUNT</a></li>
+                <li><a href="./autor.html">AUTOR</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <form method="post" action="#" name="exchange_rate">
+                <center>
+                    <p><br><br>
+                   <label >Podaj kwote w dolarach: </label><p>
+                   <input type="text" class="textInput" id="dolar_value"><br>
+                   <label id="dolar_result"> </label><p>
+                   <button type="button" onclick="naZlotyzDolar(this);">PRZELICZ NA DOLARY</button><p>
+                   <label >Podaj kwote w złótówkach: </label><p>
+                   <input type="text" class="textInput" id="zloty_value"><br>
+                   <label id="zloty_result"> </label><p>
+                   <button type="button" onclick="zZlotynaDolar(this);">PRZELICZ NA ZLOTY</button>
+                </center>
+                
+            </form>
+        </div>
+        <div id="image"><img src="./exchange.jpg" height="400px" width="100%"></div>
+        <div id="footer">&copy by OkoSzczura</div>
+        </div>
+    </body>
+</html>
